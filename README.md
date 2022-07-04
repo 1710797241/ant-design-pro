@@ -6,7 +6,7 @@ Language : 🇺🇸 | [🇨🇳](./README.zh-CN.md) | [🇷🇺](./README.ru-RU.
 
 An out-of-box UI solution for enterprise applications as a React boilerplate.
 
-# 5.2.0 final-relase
+# 5.2.0 final-release
 
 [分支地址](https://github.com/1710797241/ant-design-pro/tree/antd-pro-final-v5.2.0)
 
