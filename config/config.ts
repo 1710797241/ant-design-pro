@@ -1,6 +1,6 @@
 // https://umijs.org/config/
-import { join } from 'path';
 import { defineConfig } from 'umi';
+import { join } from 'path';
 
 import defaultSettings from './defaultSettings';
 import proxy from './proxy';
@@ -11,7 +11,6 @@ const { REACT_APP_ENV } = process.env;
 export default defineConfig({
   hash: true,
   antd: {},
-  ssr: {},
   dva: {
     hmr: true,
   },
