@@ -7,9 +7,9 @@ const Settings: LayoutSettings & {
   pwa?: boolean;
   logo?: string;
 } = {
-  navTheme: 'dark',
+  navTheme: 'light',
   primaryColor: '#1890ff',
-  layout: 'side',
+  layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,
@@ -17,7 +17,6 @@ const Settings: LayoutSettings & {
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
   headerHeight: 48,
   splitMenus: false,
-  headerRender: false,
 };
 
 export default Settings;
