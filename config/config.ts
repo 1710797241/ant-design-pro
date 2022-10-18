@@ -134,6 +134,10 @@ export default defineConfig({
    * mfsu
    */
   mfsu: {
-    strategy: 'normal',
+    shared: {
+      react: {
+        singleton: true,
+      },
+    },
   },
 });

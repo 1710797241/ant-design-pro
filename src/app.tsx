@@ -49,33 +49,6 @@ export async function getInitialState(): Promise<{
 // ProLayout 支持的api https://procomponents.ant.design/components/layout
 export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) => {
   return {
-    token: {
-      // colorBgAppListIconHover: 'rgba(0,0,0,0.06)',
-      // colorTextAppListIconHover: 'rgba(255,255,255,0.95)',
-      // colorTextAppListIcon: 'rgba(255,255,255,0.85)',
-      header: {
-        // colorBgHeader: 'rgba(0,0,0,0.9)',
-        colorHeaderTitle: '#fff',
-        colorTextRightActionsItem: '#fff',
-      },
-      sider: {
-        colorBgCollapsedButton: '#fff',
-        colorTextCollapsedButtonHover: 'rgba(0,0,0,0.65)',
-        colorTextCollapsedButton: 'rgba(0,0,0,0.45)',
-        colorMenuBackground: '#001529',
-        colorBgMenuItemCollapsedHover: 'rgba(0,0,0,0.06)',
-        colorBgMenuItemCollapsedSelected: 'rgba(0,0,0,0.15)',
-        colorMenuItemDivider: 'rgba(255,255,255,0.15)',
-        colorBgMenuItemHover: '#1890ff',
-        colorBgMenuItemSelected: '#1890ff',
-        colorTextMenuSelected: '#fff',
-        colorTextMenu: 'rgba(255,255,255,0.75)',
-        colorTextMenuSecondary: 'rgba(255,255,255,0.65)',
-        colorTextMenuTitle: 'rgba(255,255,255,0.95)',
-        colorTextMenuActive: 'rgba(255,255,255,0.95)',
-        colorTextSubMenuSelected: '#fff',
-      },
-    },
     rightContentRender: () => <RightContent />,
     waterMarkProps: {
       content: initialState?.currentUser?.name,
@@ -108,14 +81,14 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         width: '331px',
       },
     ],
-    // links: isDev
-    //   ? [
-    //       <Link key="openapi" to="/umi/plugin/openapi" target="_blank">
-    //         <LinkOutlined />
-    //         <span>OpenAPI 文档</span>
-    //       </Link>,
-    //     ]
-    //   : [],
+    links: isDev
+      ? [
+          <Link key="openapi" to="/umi/plugin/openapi" target="_blank">
+            <LinkOutlined />
+            <span>OpenAPI 文档</span>
+          </Link>,
+        ]
+      : [],
     menuHeaderRender: undefined,
     // 自定义 403 页面
     // unAccessible: <div>unAccessible</div>,
