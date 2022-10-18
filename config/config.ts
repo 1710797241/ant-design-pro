@@ -130,4 +130,10 @@ export default defineConfig({
       projectName: 'swagger',
     },
   ],
+  /**
+   * mfsu
+   */
+  mfsu: {
+    strategy: 'normal',
+  },
 });
