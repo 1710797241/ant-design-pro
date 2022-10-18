@@ -62,7 +62,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         colorBgCollapsedButton: '#fff',
         colorTextCollapsedButtonHover: 'rgba(0,0,0,0.65)',
         colorTextCollapsedButton: 'rgba(0,0,0,0.45)',
-        colorMenuBackground: 'rgba(0,0,0,0.9)',
+        colorMenuBackground: '#001529',
         colorBgMenuItemCollapsedHover: 'rgba(0,0,0,0.06)',
         colorBgMenuItemCollapsedSelected: 'rgba(0,0,0,0.15)',
         colorMenuItemDivider: 'rgba(255,255,255,0.15)',
