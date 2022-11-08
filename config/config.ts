@@ -139,5 +139,6 @@ export default defineConfig({
         singleton: true,
       },
     },
+    exclude: ['@playwright/test'],
   },
 });
